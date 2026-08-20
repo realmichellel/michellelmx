@@ -75,8 +75,8 @@ function Index() {
         </div>
 
         <div className="flex w-full max-w-sm flex-col gap-4">
-          <h2 className="mb-4 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-            Request a Meeting
+          <h2 className="mb-4 text-[10px] uppercase leading-relaxed tracking-[0.2em] text-muted-foreground">
+            Book a meeting with me to discuss anything: trading, careers, etc.
           </h2>
 
           <a
