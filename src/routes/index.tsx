@@ -83,7 +83,10 @@ function Index() {
             rel="noreferrer noopener"
             className="group flex w-full items-center justify-between bg-primary px-7 py-4 text-primary-foreground transition-opacity duration-300 hover:opacity-85"
           >
-            <span className="text-[11px] uppercase tracking-[0.25em]">30 minute session</span>
+            <span className="flex items-baseline gap-3">
+              <span className="text-[11px] uppercase tracking-[0.25em]">30 minute session</span>
+              <span className="font-serif text-sm italic opacity-80">$85</span>
+            </span>
             <ArrowUpRight
               className="size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
               strokeWidth={1.4}
@@ -96,7 +99,11 @@ function Index() {
             rel="noreferrer noopener"
             className="group flex w-full items-center justify-between border border-foreground/20 px-7 py-4 transition-colors duration-300 hover:border-foreground"
           >
-            <span className="text-[11px] uppercase tracking-[0.25em]">60 minute session</span>
+            <span className="flex items-baseline gap-3">
+              <span className="text-[11px] uppercase tracking-[0.25em]">60 minute session</span>
+              <span className="font-serif text-sm italic opacity-80">$150</span>
+            </span>
+
             <ArrowUpRight
               className="size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
               strokeWidth={1.4}
