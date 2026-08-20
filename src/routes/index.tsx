@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Instagram, ArrowUpRight } from "lucide-react";
-import portrait from "@/assets/portrait.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -49,16 +48,6 @@ function Index() {
         <h1 className="mb-8 font-serif text-6xl font-light italic tracking-tighter md:text-8xl">
           Michelle
         </h1>
-
-        <div className="mb-12">
-          <img
-            src={portrait}
-            alt="Portrait of Michelle"
-            width={800}
-            height={1008}
-            className="h-64 w-48 rounded-full object-cover outline outline-1 -outline-offset-1 outline-border md:h-80 md:w-64"
-          />
-        </div>
 
         <div className="mb-20 flex items-center gap-10">
           <a
