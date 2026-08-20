@@ -49,16 +49,6 @@ function Index() {
           Michelle
         </h1>
 
-        <div className="mb-12">
-          <img
-            src={portrait}
-            alt="Portrait of Michelle"
-            width={800}
-            height={1008}
-            className="h-64 w-48 rounded-full object-cover outline outline-1 -outline-offset-1 outline-border md:h-80 md:w-64"
-          />
-        </div>
-
         <div className="mb-20 flex items-center gap-10">
           <a
             href="https://www.instagram.com/michellee_lmx/"
