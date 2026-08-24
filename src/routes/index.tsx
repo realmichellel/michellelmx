@@ -74,7 +74,7 @@ function Index() {
 
         <div className="animate-fade-up flex w-full max-w-sm flex-col gap-3 [animation-delay:240ms]">
           <h2 className="mb-6 font-serif text-xl font-light italic leading-snug text-foreground/80">
-            Book a meeting with me to discuss anything: trading, careers, etc.
+            Book a meeting with me to discuss anything: trading, tech, careers, etc.
           </h2>
 
           <a
