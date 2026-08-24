@@ -116,6 +116,10 @@ function Index() {
               strokeWidth={1.4}
             />
           </a>
+
+          <p className="mt-6 font-serif text-sm italic text-foreground/60">
+            For startups, please DM or email!
+          </p>
         </div>
 
         <footer className="animate-fade-up mb-12 mt-28 [animation-delay:360ms]">
