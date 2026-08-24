@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Instagram, ArrowUpRight } from "lucide-react";
+import { Instagram, ArrowUpRight, Mail } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -58,7 +58,7 @@ function Index() {
             aria-label="Instagram"
             className="transition-opacity duration-300 hover:opacity-50"
           >
-            <Instagram className="size-5" strokeWidth={1.3} />
+            <Instagram className="size-6" strokeWidth={1.3} />
           </a>
           <a
             href="https://www.tiktok.com/@galaxylmx"
@@ -67,7 +67,14 @@ function Index() {
             aria-label="TikTok"
             className="transition-opacity duration-300 hover:opacity-50"
           >
-            <TikTokIcon className="size-5" />
+            <TikTokIcon className="size-6" />
+          </a>
+          <a
+            href="mailto:michellelumx@gmail.com"
+            aria-label="Email"
+            className="transition-opacity duration-300 hover:opacity-50"
+          >
+            <Mail className="size-6" strokeWidth={1.3} />
           </a>
           <div className="h-px w-10 bg-border" />
         </div>
