@@ -52,7 +52,7 @@ function Index() {
         <div className="animate-fade-up mb-16 flex items-center gap-3 [animation-delay:120ms]">
           <div className="h-px w-10 bg-border" />
           <a
-            href="https://www.instagram.com/michellee_lmx/"
+            href="https://www.instagram.com/michelllelmx/"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="Instagram"
