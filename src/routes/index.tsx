@@ -118,7 +118,7 @@ function Index() {
           </a>
 
           <p className="mt-6 font-serif text-sm italic text-foreground/60">
-            For startups, please DM or email!
+            For startups and retail traders interested in using my product, please DM or email!
           </p>
         </div>
 
